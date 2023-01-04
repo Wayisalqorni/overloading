@@ -12,9 +12,12 @@ public class Player {
     }
 
     // opsi 2:
+    /**
+     * 
+     */
     Player() {
         Player.jumlahPlayer++;
-        this.name = "player" + Player.jumlahPlayer;
+        this.name = "Player" + jumlahPlayer;
     }
 
     void show() {
